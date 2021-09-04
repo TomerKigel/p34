@@ -17,8 +17,6 @@ public class p34 {
 		}
 		for (long i = 3; i < 1499999; i++)
 		{
-			if(i == 2763)
-				System.out.println();
 			long sum = 0;
 			long t_num = i;
 			while(t_num/10 >= 1)
@@ -32,7 +30,6 @@ public class p34 {
 			if(sum == i)
 			{
 				total += sum;
-				System.out.println("Res:\t"+i);
 			}
 		}
 		System.out.println("Total:\t"+total);
